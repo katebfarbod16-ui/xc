@@ -1,0 +1,40 @@
+import { Scenario } from '../types/game';
+
+export const SCENARIOS: Scenario[] = [
+  {
+    id: "modern_2026",
+    name: "Modern World 2026: Multipolar Order",
+    nameFa: "جهان مدرن ۲۰۲۶: گسترش نقشه و نظم چندقطبی",
+    description: "Command a verified modern sovereign state on the real 2026 world map. Balance high-tech arsenals, trade routes, ballistic missiles, and multinational alliances.",
+    descriptionFa: "فرماندهی یک کشور واقعی روی نقشه کنونی جهان ۲۰۲۶. موازنه زرادخانه‌های پیشرفته، مسیرهای ترانزیت، موشک‌های بالستیک و ائتلاف‌های بزرگ بین‌المللی.",
+    startYear: 2026,
+    startDate: "2026-01-01",
+    mode: "historical_2026",
+    recommendedCountries: ["364", "840", "156", "643", "792", "682", "356"],
+    difficulty: "Strategist",
+  },
+  {
+    id: "custom_genesis",
+    name: "Custom Sovereign Genesis: Build From Scratch",
+    nameFa: "پیدایش حاکمیت: ساخت کشور از صفر",
+    description: "Design your sovereign nation from the ground up: name, flag, national doctrine, capital territory, and starting budget. Forge an empire from scratch.",
+    descriptionFa: "تأسیس و پایه‌گذاری کشور از نقطه صفر: انتخاب نام، پرچم، دکترین ملی، انتخاب استان پایتخت و تخصیص ذخایر آغازین. امپراتوری نوپای خود را بنیان نهید.",
+    startYear: 2026,
+    startDate: "2026-06-01",
+    mode: "custom_genesis",
+    recommendedCountries: ["364", "840", "156", "643", "792", "276"],
+    difficulty: "Casual",
+  },
+  {
+    id: "middle_east_crucible",
+    name: "Crucible of West Asia",
+    nameFa: "بحران خاورمیانه و غرب آسیا",
+    description: "High tension across the Persian Gulf, the Levant, and the Caucasus. Energy security, ballistic defense, and proxy influence are paramount.",
+    descriptionFa: "تنش‌های عمیق در خلیج فارس، شامات و قفقاز. امنیت کریدورهای انرژی تنگه هرمز، توانمندی‌های پدافندی و ائتلاف‌های منطقه‌ای نقشی سرنوشت‌ساز دارند.",
+    startYear: 2026,
+    startDate: "2026-03-15",
+    mode: "historical_2026",
+    recommendedCountries: ["364", "792", "682", "376", "818", "784"],
+    difficulty: "Grand Master",
+  },
+];

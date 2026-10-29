@@ -1,0 +1,8 @@
+{
+  "name": "OpenBattle: Ultimate Edition",
+  "description": "Grand strategy geopolitical world simulator with interactive real-world cartography, economic and military command, autonomous AI nations, and tactical AI Commander.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
